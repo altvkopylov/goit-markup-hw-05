@@ -585,7 +585,7 @@ p {
     height: 40px;
     display: inline-flex;
     flex-direction: row-reverse;
-    gap: 16px;
+    /* gap: 16px; */
     justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
@@ -600,6 +600,9 @@ p {
     border-radius: 4px;
 }
 
+.footer-form-icon {
+    margin-left: 16px;
+}
 
 /* ------------------------------ Модальне вікно ------------------------------ */
 .backdrop {
