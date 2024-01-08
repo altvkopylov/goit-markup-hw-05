@@ -14,4 +14,5 @@ document.querySelector('.modal-button').addEventListener('click', (e) => {
 
 document.querySelector('.btn').addEventListener('click', (e) => {
     backdrop.classList.add('is-open');
+    console.log(e)
 })
